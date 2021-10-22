@@ -1,0 +1,85 @@
+*{
+    margin: 5px;
+}
+
+.side{
+    position: absolute;
+    top: 5px;
+    left: 60%;
+    height: 90%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+}
+.navbar{
+    position: fixed;
+    top: 40%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:pink;
+    opacity: 0.9;
+    }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    }
+a:hover{
+    color: plum;
+}
+.navbar ul li{
+    padding: 5px; 
+}
+
+#name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace
+}
+#text{
+   border: black solid 2px ;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 130px;
+    background-color:pink;
+    opacity: 0.9;
+}
+#footer{
+    position: absolute;
+    top: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: black solid 2px;
+    height: 50px;
+    width: 100%;
+    
+}
+
+#footer a{
+color: black;
+font-family: 'Courier New', Courier, monospace;
+padding: 30 px;
+
+}
+#footer a:hover{
+    color: plum;
+}
